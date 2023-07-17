@@ -3,6 +3,9 @@ export default {
   content: ["./*.{html,js}", "./src/**/*.{html,js,ts}"],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['"Fira Sans"'],
+      },
       colors: {
         "dark-blue": "#0C1117",
         "medium-blue": "#1B2837",

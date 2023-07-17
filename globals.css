@@ -2,7 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Fira Sans";
+  src: url("./src/fonts/Fira_Sans/FiraSans-Bold.ttf") format("opentype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  src: url("./src/fonts/Fira_Sans/FiraSans-Medium.ttf") format("opentype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  src: url("./src/fonts/Fira_Sans/FiraSans-Light.ttf") format("opentype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  src: url("./src/fonts/Fira_Sans/FiraSans-Regular.ttf") format("opentype");
+  font-weight: 400;
+}
+
+/* @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"); */
+
 @layer base {
+  /* * {
+    font-family: "Fira Sans";
+  } */
+
   h1 {
     @apply font-bold text-[4rem];
   }
