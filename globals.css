@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply font-bold text-[4rem];
+  }
+
+  h2 {
+    @apply font-medium text-5xl;
+  }
+
+  p {
+    @apply font-normal text-base;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply font-normal text-lg rounded-full py-2 px-6;
+  }
+
+  .btn-primary {
+    @apply bg-primary;
+  }
+
+  .menu-icon,
+  .menu-icon::after,
+  .menu-icon::before {
+    @apply block w-8 bg-white h-1;
+  }
+
+  .menu-icon {
+    @apply ml-auto lg:hidden peer-checked:bg-transparent;
+  }
+
+  .menu-icon::after {
+    @apply content-[""] -translate-y-3 peer-checked:translate-y-0 peer-checked:rotate-45 transition-all;
+  }
+
+  .menu-icon::before {
+    @apply content-[""] translate-y-2 peer-checked:translate-y-1 peer-checked:-rotate-45 transition-all;
+  }
+
+  .our-works-1 {
+    /* grid-template-columns: 1.1fr, 2.6fr, 1.4fr; */
+    grid-template-areas: "img1 img1 img1" "img2 img2 img2" "img3 img3 img3";
+    @apply grid gap-5 grid-cols-[1.1fr,2.6fr,1.4fr] items-stretch;
+  }
+
+  .our-works-1 > .img1 {
+    grid-area: img1;
+    @apply w-full object-cover;
+  }
+
+  .our-works-1 > .img2 {
+    grid-area: img2;
+  }
+
+  .our-works-1 > .img3 {
+    grid-area: img3;
+  }
+
+  @media screen and (min-width: 768px) {
+    .our-works-1 {
+      /* grid-template-columns: 1.1fr, 2.6fr, 1.4fr; */
+      grid-template-areas: "img1 img3" "img2 img2";
+      @apply grid gap-5 grid-cols-2 items-stretch;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    .our-works-1 {
+      /* grid-template-columns: 1.1fr, 2.6fr, 1.4fr; */
+      grid-template-areas: "img1 img2 img3";
+      @apply grid gap-5 grid-cols-[1.1fr,2.6fr,1.4fr] items-stretch;
+    }
+  }
+}
