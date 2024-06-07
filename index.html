@@ -1,806 +1,706 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" href="/src/assets/raven-logo-small.png" />
-    <link rel="stylesheet" href="./globals.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Raven Digital - Home</title>
-  </head>
-  <body class="bg-dark-blue text-white">
-    <header>
-      <!-- Navbar -->
-      <nav>
-        <div class="px-8 md:px-16 py-10 flex items-center relative">
-          <img width="150" src="./src/assets/raven-logo.png" />
 
-          <input type="checkbox" class="peer hidden" id="menu-checkbox" />
-          <label for="menu-checkbox" class="menu-icon"></label>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="/src/assets/raven-logo-small.png" />
+  <link rel="stylesheet" href="./globals.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Raven Digital - Home</title>
+</head>
 
-          <div
-            class="flex max-lg:max-h-0 max-lg:peer-checked:max-h-96 overflow-hidden transition-all max-lg:absolute max-lg:w-full max-lg:left-0 top-0 max-lg:bg-medium-blue lg:flex items-center lg:ml-auto max-lg:mt-32"
-          >
-            <ul
-              class="flex-1 lg:flex max-lg:divide-y lg:space-x-5 xl:space-x-10"
-            >
-              <li>
-                <a href="#" class="max-lg:py-3 max-lg:pl-6 block"> Home </a>
-              </li>
-              <li>
-                <a href="#" class="max-lg:py-3 max-lg:pl-6 block"> About </a>
-              </li>
-              <li>
-                <a href="#" class="max-lg:py-3 max-lg:pl-6 block"> Services </a>
-              </li>
-              <li>
-                <a href="#" class="max-lg:py-3 max-lg:pl-6 block">
-                  Portfolio
-                </a>
-              </li>
-              <li>
-                <a href="#" class="max-lg:py-3 max-lg:pl-6 block">
-                  Testimonials
-                </a>
-              </li>
-              <li>
-                <a href="#" class="max-lg:py-3 max-lg:pl-6 block"> News </a>
-              </li>
-              <li>
-                <a href="#" class="max-lg:py-3 max-lg:pl-6 block"> Contacts </a>
-              </li>
-              <li>
-                <a href="#" class="max-lg:py-3 max-lg:pl-6 block"> Elements </a>
-              </li>
-            </ul>
-            <!-- TODO: SEARCH ICON -->
-            <img
-              class="max-lg:hidden lg:ml-5 xl:ml-20"
-              src="./src/assets/search-icon.svg"
-              alt="Search"
-            />
-          </div>
+<body class="bg-dark-blue text-white">
+  <header>
+    <!-- Navbar -->
+    <nav>
+      <div class="px-8 md:px-16 py-10 flex items-center relative">
+        <img width="150" src="./src/assets/raven-logo.png" />
+
+        <input type="checkbox" class="peer hidden" id="menu-checkbox" />
+        <label for="menu-checkbox" class="menu-icon"></label>
+
+        <div
+          class="flex max-lg:max-h-0 max-lg:peer-checked:max-h-96 overflow-hidden transition-all max-lg:absolute max-lg:w-full max-lg:left-0 top-0 max-lg:bg-medium-blue lg:flex items-center lg:ml-auto max-lg:mt-32">
+          <ul class="flex-1 lg:flex max-lg:divide-y lg:space-x-5 xl:space-x-10">
+            <li>
+              <a href="#" class="max-lg:py-3 max-lg:pl-6 block"> Home </a>
+            </li>
+            <li>
+              <a href="#" class="max-lg:py-3 max-lg:pl-6 block"> About </a>
+            </li>
+            <li>
+              <a href="#" class="max-lg:py-3 max-lg:pl-6 block"> Services </a>
+            </li>
+            <li>
+              <a href="#" class="max-lg:py-3 max-lg:pl-6 block">
+                Portfolio
+              </a>
+            </li>
+            <li>
+              <a href="#" class="max-lg:py-3 max-lg:pl-6 block">
+                Testimonials
+              </a>
+            </li>
+            <li>
+              <a href="#" class="max-lg:py-3 max-lg:pl-6 block"> News </a>
+            </li>
+            <li>
+              <a href="#" class="max-lg:py-3 max-lg:pl-6 block"> Contacts </a>
+            </li>
+            <li>
+              <a href="#" class="max-lg:py-3 max-lg:pl-6 block"> Elements </a>
+            </li>
+          </ul>
+          <!-- TODO: SEARCH ICON -->
+          <img class="max-lg:hidden lg:ml-5 xl:ml-20" src="./src/assets/search-icon.svg" alt="Search" />
         </div>
-      </nav>
+      </div>
+    </nav>
 
-      <!-- Hero section -->
-      <section class="mt-24">
-        <div class="container flex">
-          <!-- <div class=" max-w-[1536px] mx-auto">
+    <!-- Hero section -->
+    <section class="mt-24">
+      <div class="container flex">
+        <!-- <div class=" max-w-[1536px] mx-auto">
             <div class="ml-8 sm:ml-8 lg:ml-16 xl:ml-40 flex items-center"> -->
-          <div class="mr-20 w-full lg:w-1/2">
-            <h1>
-              WE ARE
-              <div>DIGITAL AGENCY</div>
-            </h1>
-            <p class="mt-7 mb-14 leading-7">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit
-              id fringilla turpis tempor enim. Vel tristique suspendisse eget
-              sodales egestas. Donec duis lacus, odio velit eu eget ac tortor.
-              Ac sit ultricies hendrerit pellentesque arcu fames sit lectus.
-              Scelerisque id bibendum velit cras.
-            </p>
-            <button class="btn btn-primary">Learn more</button>
-          </div>
-          <div class="w-1/2 max-lg:hidden">
-            <img
-              class="w-full object-cover"
-              src="./src/assets/hero-image.png"
-              alt=""
-            />
-          </div>
-          <!-- </div>
+        <div class="lg:mr-20 w-full lg:w-1/2">
+          <h1 class="max-sm:text-5xl">
+            WE ARE
+            <div>DIGITAL AGENCY</div>
+          </h1>
+          <p class="mt-7 mb-14 leading-7">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit
+            id fringilla turpis tempor enim. Vel tristique suspendisse eget
+            sodales egestas. Donec duis lacus, odio velit eu eget ac tortor.
+            Ac sit ultricies hendrerit pellentesque arcu fames sit lectus.
+            Scelerisque id bibendum velit cras.
+          </p>
+          <button class="btn btn-primary">Learn more</button>
+        </div>
+        <div class="w-1/2 max-lg:hidden">
+          <img class="w-full object-cover" src="./src/assets/hero-image.png" alt="" />
+        </div>
+        <!-- </div>
             </div> -->
-        </div>
-      </section>
-    </header>
-    <main>
-      <section class="mt-28">
-        <div class="container">
-          <h2 class="text-center mb-20">What we do</h2>
+      </div>
+    </section>
+  </header>
+  <main>
+    <section class="mt-28">
+      <div class="container">
+        <h2 class="text-center mb-20">What we do</h2>
 
-          <!-- What we do grid -->
-          <!-- Grid container -->
-          <div
-            class="grid grid-cols-1 md:grid-cols-[repeat(2,1fr)] lg:grid-cols-[repeat(4,1fr)] gap-3"
-          >
-            <!-- Grid card - App Development -->
-            <div class="relative group bg-medium-blue pt-9 pb-28 px-6">
-              <!-- The positioning is for stacking  -->
-              <div class="relative z-10">
-                <div class="text-2xl font-extrabold">APP DEVELOPMENT</div>
+        <!-- What we do grid -->
+        <!-- Grid container -->
+        <div class="grid grid-cols-1 md:grid-cols-[repeat(2,1fr)] lg:grid-cols-[repeat(4,1fr)] gap-3">
+          <!-- Grid card - App Development -->
+          <div class="relative group bg-medium-blue pt-9 pb-28 px-6">
+            <!-- The positioning is for stacking  -->
+            <div class="relative z-10">
+              <div class="text-2xl font-extrabold">APP DEVELOPMENT</div>
 
-                <p class="leading-6 my-9">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
+              <p class="leading-6 my-9">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
 
-                <a class="underline underline-offset-3" href="#">Contact us</a>
-              </div>
-
-              <div
-                class="absolute bottom-0 right-0 bg-primary w-32 group-hover:w-full h-24 group-hover:h-full rounded-tl-[4.34rem] rounded-br-sm group-hover:rounded-tl-full transition-[width,_height,_border-radius] duration-300"
-              >
-                <img
-                  class="absolute bottom-0 right-0 mb-6 mr-10"
-                  src="./src/assets/computer-line.svg"
-                  alt="Terminal window"
-                />
-              </div>
+              <a class="underline underline-offset-3" href="#">Contact us</a>
             </div>
 
-            <!-- Grid card - Website Development -->
-            <div class="relative group bg-medium-blue pt-9 pb-28 px-6">
-              <!-- The positioning is for stacking  -->
-              <div class="relative z-10">
-                <div class="text-2xl font-extrabold">WEBSITE DEVELOPMENT</div>
-
-                <p class="leading-6 my-9">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-
-                <a class="underline underline-offset-3" href="#">Contact us</a>
-              </div>
-
-              <div
-                class="absolute bottom-0 right-0 bg-primary w-32 group-hover:w-full h-24 group-hover:h-full rounded-tl-[4.34rem] rounded-br-sm group-hover:rounded-tl-full transition-[width,_height_border-radius] duration-300"
-              >
-                <img
-                  class="absolute bottom-0 right-0 mb-6 mr-10"
-                  src="./src/assets/terminal-window-line.svg"
-                  alt="Terminal window"
-                />
-              </div>
-            </div>
-
-            <!-- Grid card - Website Development -->
-            <div class="relative group bg-medium-blue pt-9 pb-28 px-6">
-              <!-- The positioning is for stacking  -->
-              <div class="relative z-10">
-                <div class="text-2xl font-extrabold">WEBSITE DEVELOPMENT</div>
-
-                <p class="leading-6 my-9">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-
-                <a class="underline underline-offset-3" href="#">Contact us</a>
-              </div>
-
-              <div
-                class="absolute bottom-0 right-0 bg-primary w-32 group-hover:w-full h-24 group-hover:h-full rounded-tl-[4.34rem] rounded-br-sm group-hover:rounded-tl-full transition-[width,_height_border-radius] duration-300"
-              >
-                <img
-                  class="absolute bottom-0 right-0 mb-6 mr-10"
-                  src="./src/assets/artboard.svg"
-                  alt="Terminal window"
-                />
-              </div>
-            </div>
-
-            <!-- Grid card - Website Development -->
-            <div class="relative group bg-medium-blue pt-9 pb-28 px-6">
-              <!-- The positioning is for stacking  -->
-              <div class="relative z-10">
-                <div class="text-2xl font-extrabold">WEBSITE DEVELOPMENT</div>
-
-                <p class="leading-6 my-9">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-
-                <a class="underline underline-offset-3" href="#">Contact us</a>
-              </div>
-
-              <div
-                class="absolute bottom-0 right-0 bg-primary w-32 group-hover:w-full h-24 group-hover:h-full rounded-tl-[4.34rem] rounded-br-sm group-hover:rounded-tl-full transition-[width,_height_border-radius] duration-300"
-              >
-                <img
-                  class="absolute bottom-0 right-0 mb-6 mr-10"
-                  src="./src/assets/vip-diamond.svg"
-                  alt="Terminal window"
-                />
-              </div>
-            </div>
-
-            <!-- Grid card - Website Development -->
-            <div class="relative group bg-medium-blue pt-9 pb-28 px-6">
-              <!-- The positioning is for stacking  -->
-              <div class="relative z-10">
-                <div class="text-2xl font-extrabold">WEBSITE DEVELOPMENT</div>
-
-                <p class="leading-6 my-9">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-
-                <a class="underline underline-offset-3" href="#">Contact us</a>
-              </div>
-
-              <div
-                class="absolute bottom-0 right-0 bg-primary w-32 group-hover:w-full h-24 group-hover:h-full rounded-tl-[4.34rem] rounded-br-sm group-hover:rounded-tl-full transition-[width,_height_border-radius] duration-300"
-              >
-                <img
-                  class="absolute bottom-0 right-0 mb-6 mr-10"
-                  src="./src/assets/bar-chart-2.svg"
-                  alt="Terminal window"
-                />
-              </div>
-            </div>
-
-            <!-- Grid card - Website Development -->
-            <div class="relative group bg-medium-blue pt-9 pb-28 px-6">
-              <!-- The positioning is for stacking  -->
-              <div class="relative z-10">
-                <div class="text-2xl font-extrabold">WEBSITE DEVELOPMENT</div>
-
-                <p class="leading-6 my-9">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-
-                <a class="underline underline-offset-3" href="#">Contact us</a>
-              </div>
-
-              <div
-                class="absolute bottom-0 right-0 bg-primary w-32 group-hover:w-full h-24 group-hover:h-full rounded-tl-[4.34rem] rounded-br-sm group-hover:rounded-tl-full transition-[width,_height_border-radius] duration-300"
-              >
-                <img
-                  class="absolute bottom-0 right-0 mb-6 mr-10"
-                  src="./src/assets/paint-brush.svg"
-                  alt="Terminal window"
-                />
-              </div>
-            </div>
-
-            <!-- Solution for business Call to action -->
-            <div class="lg:col-span-2">
-              <div class="max-w-[22.6rem] ml-12 mt-12">
-                <div class="font-bold text-3xl">
-                  SOLUTIONS FOR YOUR BUSINESS
-                </div>
-                <p class="text-xl pt-3 pb-8">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-                <button class="btn btn-primary">Learn more</button>
-              </div>
+            <div
+              class="absolute bottom-0 right-0 bg-primary w-32 group-hover:w-full h-24 group-hover:h-full rounded-tl-[4.34rem] rounded-br-sm group-hover:rounded-tl-full transition-[width,_height,_border-radius] duration-300">
+              <img class="absolute bottom-0 right-0 mb-6 mr-10" src="./src/assets/computer-line.svg"
+                alt="Terminal window" />
             </div>
           </div>
-        </div>
-      </section>
 
-      <!-- Our works section -->
-      <section class="mt-28">
-        <div class="container">
-          <h2 class="mb-20">Our Works</h2>
+          <!-- Grid card - Website Development -->
+          <div class="relative group bg-medium-blue pt-9 pb-28 px-6">
+            <!-- The positioning is for stacking  -->
+            <div class="relative z-10">
+              <div class="text-2xl font-extrabold">WEBSITE DEVELOPMENT</div>
 
-          <div class="our-works-1">
-            <img class="img1" src="./src/assets/our-works-1.png" alt="WORK 1" />
-            <img class="img2" src="./src/assets/our-works-2.png" alt="WORK 2" />
-            <img class="img3" src="./src/assets/our-works-3.png" alt="WORK 3" />
+              <p class="leading-6 my-9">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+
+              <a class="underline underline-offset-3" href="#">Contact us</a>
+            </div>
+
+            <div
+              class="absolute bottom-0 right-0 bg-primary w-32 group-hover:w-full h-24 group-hover:h-full rounded-tl-[4.34rem] rounded-br-sm group-hover:rounded-tl-full transition-[width,_height_border-radius] duration-300">
+              <img class="absolute bottom-0 right-0 mb-6 mr-10" src="./src/assets/terminal-window-line.svg"
+                alt="Terminal window" />
+            </div>
           </div>
 
-          <div
-            class="w-full overflow-hidden flex flex-col-reverse lg:flex-row md:flex-row-reverse md:flex-wrap lg:flex-nowrap items-center lg:space-x-5 mt-5 max-w-full"
-          >
-            <div class="px-10 shrink-0 basis-80 max-md:mt-4 md:w-1/2 lg:w-auto">
-              <div class="text-3xl font-bold">NOT IMPRESSED</div>
-              <p class="mt-6 mb-11">
+          <!-- Grid card - Website Development -->
+          <div class="relative group bg-medium-blue pt-9 pb-28 px-6">
+            <!-- The positioning is for stacking  -->
+            <div class="relative z-10">
+              <div class="text-2xl font-extrabold">WEBSITE DEVELOPMENT</div>
+
+              <p class="leading-6 my-9">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+
+              <a class="underline underline-offset-3" href="#">Contact us</a>
+            </div>
+
+            <div
+              class="absolute bottom-0 right-0 bg-primary w-32 group-hover:w-full h-24 group-hover:h-full rounded-tl-[4.34rem] rounded-br-sm group-hover:rounded-tl-full transition-[width,_height_border-radius] duration-300">
+              <img class="absolute bottom-0 right-0 mb-6 mr-10" src="./src/assets/artboard.svg" alt="Terminal window" />
+            </div>
+          </div>
+
+          <!-- Grid card - Website Development -->
+          <div class="relative group bg-medium-blue pt-9 pb-28 px-6">
+            <!-- The positioning is for stacking  -->
+            <div class="relative z-10">
+              <div class="text-2xl font-extrabold">WEBSITE DEVELOPMENT</div>
+
+              <p class="leading-6 my-9">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+
+              <a class="underline underline-offset-3" href="#">Contact us</a>
+            </div>
+
+            <div
+              class="absolute bottom-0 right-0 bg-primary w-32 group-hover:w-full h-24 group-hover:h-full rounded-tl-[4.34rem] rounded-br-sm group-hover:rounded-tl-full transition-[width,_height_border-radius] duration-300">
+              <img class="absolute bottom-0 right-0 mb-6 mr-10" src="./src/assets/vip-diamond.svg"
+                alt="Terminal window" />
+            </div>
+          </div>
+
+          <!-- Grid card - Website Development -->
+          <div class="relative group bg-medium-blue pt-9 pb-28 px-6">
+            <!-- The positioning is for stacking  -->
+            <div class="relative z-10">
+              <div class="text-2xl font-extrabold">WEBSITE DEVELOPMENT</div>
+
+              <p class="leading-6 my-9">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+
+              <a class="underline underline-offset-3" href="#">Contact us</a>
+            </div>
+
+            <div
+              class="absolute bottom-0 right-0 bg-primary w-32 group-hover:w-full h-24 group-hover:h-full rounded-tl-[4.34rem] rounded-br-sm group-hover:rounded-tl-full transition-[width,_height_border-radius] duration-300">
+              <img class="absolute bottom-0 right-0 mb-6 mr-10" src="./src/assets/bar-chart-2.svg"
+                alt="Terminal window" />
+            </div>
+          </div>
+
+          <!-- Grid card - Website Development -->
+          <div class="relative group bg-medium-blue pt-9 pb-28 px-6">
+            <!-- The positioning is for stacking  -->
+            <div class="relative z-10">
+              <div class="text-2xl font-extrabold">WEBSITE DEVELOPMENT</div>
+
+              <p class="leading-6 my-9">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+
+              <a class="underline underline-offset-3" href="#">Contact us</a>
+            </div>
+
+            <div
+              class="absolute bottom-0 right-0 bg-primary w-32 group-hover:w-full h-24 group-hover:h-full rounded-tl-[4.34rem] rounded-br-sm group-hover:rounded-tl-full transition-[width,_height_border-radius] duration-300">
+              <img class="absolute bottom-0 right-0 mb-6 mr-10" src="./src/assets/paint-brush.svg"
+                alt="Terminal window" />
+            </div>
+          </div>
+
+          <!-- Solution for business Call to action -->
+          <div class="lg:col-span-2">
+            <div class="max-w-[22.6rem] ml-12 mt-12">
+              <div class="font-bold text-3xl">
+                SOLUTIONS FOR YOUR BUSINESS
+              </div>
+              <p class="text-xl pt-3 pb-8">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
-              <button class="btn btn-primary">See more</button>
-            </div>
-
-            <img
-              class="w-full md:w-1/2 lg:w-auto max-md:mt-4"
-              src="./src/assets/our-works-4.png"
-              alt="WORK 4"
-            />
-            <!-- <div class=""> -->
-            <img
-              class="object-cover md:w-full lg:w-auto md:mt-4 lg:mt-0"
-              src="./src/assets/our-works-5.png"
-              alt="WORK 5"
-            />
-            <!-- </div> -->
-          </div>
-        </div>
-      </section>
-
-      <!-- Stats section -->
-      <section class="bg-primary py-20 mt-28">
-        <div class="container flex max-lg:flex-wrap gap-20 justify-between">
-          <!-- Project Stats -->
-          <div>
-            <div class="font-bold text-5xl">9854</div>
-            <div class="font-bold text-2xl text-[#8FC2FF]">
-              PROJECTS COMPLETED
-            </div>
-          </div>
-
-          <!-- Project Stats -->
-          <div>
-            <div class="font-bold text-5xl">840</div>
-            <div class="font-bold text-2xl text-[#8FC2FF]">CLIENTS</div>
-          </div>
-
-          <!-- Project Stats -->
-          <div>
-            <div class="font-bold text-5xl">321</div>
-            <div class="font-bold text-2xl text-[#8FC2FF]">ACTIVE CLIENTS</div>
-          </div>
-
-          <!-- Project Stats -->
-          <div>
-            <div class="font-bold text-5xl">5410</div>
-            <div class="font-bold text-2xl text-[#8FC2FF]">CUPS OF COFEE</div>
-          </div>
-
-          <!-- Project Stats -->
-          <div>
-            <div class="font-bold text-5xl">9854</div>
-            <div class="font-bold text-2xl text-[#8FC2FF]">
-              PROJECTS COMPLETED
+              <button class="btn btn-primary">Learn more</button>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- Testimonials -->
-      <section class="mt-28">
-        <div class="container">
-          <!-- Testimonial container -->
-          <div class="relative">
-            <!-- Testimonial items -->
-            <div class="">
-              <!-- Testimonial item -->
-              <div
-                class="flex flex-col md:flex-row max-lg:justify-center max-md:items-center md:flex-wrap gap-10 md:gap-5 md:items-start lg:items-center"
-              >
-                <img
-                  class="max-lg:rounded-full lg:w-[40%] md:shrink-0 md:w-[10%] ring-medium-blue ring-2 w-32 lg:rounded-tr-[5.625rem]"
-                  src="./src/assets/testimonial-image.png"
-                  alt="Testifier"
-                />
-
-                <div class="md:w-[80%] lg:w-[50%] md:shrink-0 lg:flex-shrink">
-                  <div class="font-medium text-5xl">Testimonials</div>
-                  <div class="font-medium text-2xl mt-9">Jane Doe</div>
-                  <div class="font-medium text-2xl text-[#727272] mt-2">
-                    Company / CEO
-                  </div>
-
-                  <p class="mt-4 mb-6 font-light">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Blandit id fringilla turpis tempor enim. Vel tristique
-                    suspendisse eget sodales egestas. Donec duis lacus, odio
-                    velit eu eget ac tortor. Ac sit ultricies hendrerit
-                    pellentesque arcu fames sit lectus. Scelerisque id bibendum
-                    velit cras.
-                  </p>
-
-                  <p class="font-light">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Blandit id fringilla turpis tempor enim. Vel tristique
-                    suspendisse eget sodales egestas.
-                  </p>
-                </div>
-                <!-- Testimonial slider controls -->
-                <div
-                  class="flex flex-row lg:flex-col lg:w-[5%] max-lg:w-full max-lg:max-w-xs gap-2 items-center"
-                >
-                  <div>01</div>
-                  <div
-                    class="flex gap-2 flex-row lg:flex-col max-lg:flex-1 lg:h-96"
-                  >
-                    <div class="bg-primary w-1/3 h-0.5 lg:w-0.5 lg:h-1/3"></div>
-                    <div class="bg-white w-1/3 h-0.5 lg:w-0.5 lg:h-1/3"></div>
-                    <div class="bg-white w-1/3 h-0.5 lg:w-0.5 lg:h-1/3"></div>
-                  </div>
-                  <div>03</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Team Section -->
-      <section class="mt-28">
-        <div class="container">
-          <h2 class="mb-20">Our Team</h2>
-
-          <!-- Team members list -->
-          <div class="flex flex-wrap justify-center gap-6">
-            <!-- Team member -->
-            <div class="group relative text-center cursor-pointer">
-              <img src="./src/assets/team-member-1.png" alt="Member 1" />
-
-              <div
-                class="opacity-0 transition-opacity group-hover:opacity-100 group-hover:block duration-500 bg-primary pt-14 pb-20 py-7 absolute inset-0"
-              >
-                <div class="font-medium text-2xl">Jane Doe</div>
-                <div class="font-medium text-lg">Company/CEO</div>
-
-                <p class="font-light mt-16 mb-40">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Blandit id fringilla turpis tempor enim. Vel tristique
-                  suspendisse
-                </p>
-
-                <!-- member socials -->
-                <div class="flex gap-10 justify-center">
-                  <img src="./src/assets/facebook-icon.svg" alt="Facebook" />
-                  <img src="./src/assets/twitter-icon.svg" alt="Twitter" />
-                  <img src="./src/assets/instagram-icon.svg" alt="Instagram" />
-                </div>
-              </div>
-            </div>
-
-            <!-- Team member -->
-            <div class="group relative text-center cursor-pointer">
-              <img src="./src/assets/team-member-1.png" alt="Member 1" />
-
-              <div
-                class="opacity-0 transition-opacity group-hover:opacity-100 group-hover:block duration-500 bg-primary pt-14 pb-20 py-7 absolute inset-0"
-              >
-                <div class="font-medium text-2xl">Jane Doe</div>
-                <div class="font-medium text-lg">Company/CEO</div>
-
-                <p class="font-light mt-16 mb-40">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Blandit id fringilla turpis tempor enim. Vel tristique
-                  suspendisse
-                </p>
-
-                <!-- member socials -->
-                <div class="flex gap-10 justify-center">
-                  <img src="./src/assets/facebook-icon.svg" alt="Facebook" />
-                  <img src="./src/assets/twitter-icon.svg" alt="Twitter" />
-                  <img src="./src/assets/instagram-icon.svg" alt="Instagram" />
-                </div>
-              </div>
-            </div>
-
-            <!-- Team member -->
-            <div class="group relative text-center cursor-pointer">
-              <img src="./src/assets/team-member-2.png" alt="Member 2" />
-
-              <div
-                class="opacity-0 transition-opacity group-hover:opacity-100 group-hover:block duration-500 bg-primary pt-14 pb-20 py-7 absolute inset-0"
-              >
-                <div class="font-medium text-2xl">Jane Doe</div>
-                <div class="font-medium text-lg">Company/CEO</div>
-
-                <p class="font-light mt-16 mb-40">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Blandit id fringilla turpis tempor enim. Vel tristique
-                  suspendisse
-                </p>
-
-                <!-- member socials -->
-                <div class="flex gap-10 justify-center">
-                  <img src="./src/assets/facebook-icon.svg" alt="Facebook" />
-                  <img src="./src/assets/twitter-icon.svg" alt="Twitter" />
-                  <img src="./src/assets/instagram-icon.svg" alt="Instagram" />
-                </div>
-              </div>
-            </div>
-
-            <!-- Team member -->
-            <div class="group relative text-center cursor-pointer">
-              <img src="./src/assets/team-member-3.png" alt="Member 3" />
-
-              <div
-                class="opacity-0 transition-opacity group-hover:opacity-100 group-hover:block duration-500 bg-primary pt-14 pb-20 py-7 absolute inset-0"
-              >
-                <div class="font-medium text-2xl">Jane Doe</div>
-                <div class="font-medium text-lg">Company/CEO</div>
-
-                <p class="font-light mt-16 mb-40">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Blandit id fringilla turpis tempor enim. Vel tristique
-                  suspendisse
-                </p>
-
-                <!-- member socials -->
-                <div class="flex gap-10 justify-center">
-                  <img src="./src/assets/facebook-icon.svg" alt="Facebook" />
-                  <img src="./src/assets/twitter-icon.svg" alt="Twitter" />
-                  <img src="./src/assets/instagram-icon.svg" alt="Instagram" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Blog thumbnails section -->
-      <section class="mt-28">
-        <div class="container">
-          <h2 class="mb-20 text-center">Blog</h2>
-          <!-- Thumbnail list -->
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <!-- Thumbnail item -->
-            <div class="bg-[#11161C] rounded-tr-[8rem] relative group">
-              <div class="m-5 relative z-10">
-                <div class="relative">
-                  <img
-                    class="rounded-tr-[7rem] w-full"
-                    src="./src/assets/thumb-image-1.png"
-                    alt="Blog thumbnail 1"
-                  />
-                  <div
-                    class="font-medium text-lg absolute bottom-0 left-0 bg-primary drop-shadow-lg rounded-tr-[4.34rem] py-4 pl-6 pr-10"
-                  >
-                    Techno
-                  </div>
-                </div>
-
-                <div
-                  class="flex mt-6 mb-4 justify-between text-[#727272] font-medium"
-                >
-                  <!-- Blog date and number -->
-                  <div>07/04/2021</div>
-
-                  <div>1502</div>
-                </div>
-
-                <!-- Blog Heading -->
-                <div class="font-medium text-2xl">Tik tok Banned in India</div>
-
-                <!-- Blog summary -->
-                <p class="pt-5 pb-11">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Blandit id fringilla turpis tempor enim. Vel tristique
-                  suspendisse eget sodales egestas. Donec duis lacus, odio velit
-                </p>
-              </div>
-              <!-- Inner animated cover -->
-              <div
-                class="absolute bottom-0 bg-primary w-full h-2 group-hover:h-96 transition-[height]"
-              ></div>
-            </div>
-
-            <!-- Thumbnail item -->
-            <div class="bg-[#11161C] rounded-tr-[8rem] relative group">
-              <div class="m-5 relative z-10">
-                <div class="relative">
-                  <img
-                    class="rounded-tr-[7rem] w-full"
-                    src="./src/assets/thumb-image-2.png"
-                    alt="Blog thumbnail 1"
-                  />
-                  <div
-                    class="font-medium text-lg absolute bottom-0 left-0 bg-primary drop-shadow-lg rounded-tr-[4.34rem] py-4 pl-6 pr-10"
-                  >
-                    Techno
-                  </div>
-                </div>
-
-                <div
-                  class="flex mt-6 mb-4 justify-between text-[#727272] font-medium"
-                >
-                  <!-- Blog date and number -->
-                  <div>07/04/2021</div>
-
-                  <div>1502</div>
-                </div>
-
-                <!-- Blog Heading -->
-                <div class="font-medium text-2xl">Tik tok Banned in India</div>
-
-                <!-- Blog summary -->
-                <p class="pt-5 pb-11">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Blandit id fringilla turpis tempor enim. Vel tristique
-                  suspendisse eget sodales egestas. Donec duis lacus, odio velit
-                </p>
-              </div>
-              <!-- Inner animated cover -->
-              <div
-                class="absolute bottom-0 bg-primary w-full h-2 group-hover:h-96 transition-[height]"
-              ></div>
-            </div>
-
-            <!-- Thumbnail item -->
-            <div class="bg-[#11161C] rounded-tr-[8rem] relative group">
-              <div class="m-5 relative z-10">
-                <div class="relative">
-                  <img
-                    class="rounded-tr-[7rem] w-full"
-                    src="./src/assets/thumb-image-3.png"
-                    alt="Blog thumbnail 1"
-                  />
-                  <div
-                    class="font-medium text-lg absolute bottom-0 left-0 bg-primary drop-shadow-lg rounded-tr-[4.34rem] py-4 pl-6 pr-10"
-                  >
-                    Techno
-                  </div>
-                </div>
-
-                <div
-                  class="flex mt-6 mb-4 justify-between text-[#727272] font-medium"
-                >
-                  <!-- Blog date and number -->
-                  <div>07/04/2021</div>
-
-                  <div>1502</div>
-                </div>
-
-                <!-- Blog Heading -->
-                <div class="font-medium text-2xl">Tik tok Banned in India</div>
-
-                <!-- Blog summary -->
-                <p class="pt-5 pb-11">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Blandit id fringilla turpis tempor enim. Vel tristique
-                  suspendisse eget sodales egestas. Donec duis lacus, odio velit
-                </p>
-              </div>
-              <!-- Inner animated cover -->
-              <div
-                class="absolute bottom-0 bg-primary w-full h-2 group-hover:h-96 transition-[height]"
-              ></div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Clients section -->
-      <section class="mt-28 bg-[#0A0F14]">
-        <div class="container">
-          <h2 class="mb-20">Clients</h2>
-
-          <div class="flex justify-between gap-10 flex-wrap">
-            <img src="./src/assets/client-1.png" alt="Mango" />
-            <img src="./src/assets/client-2.png" alt="Microsoft" />
-            <img src="./src/assets/client-3.png" alt="Nike" />
-            <img src="./src/assets/client-4.png" alt="Amazon" />
-            <img src="./src/assets/client-1.png" alt="Mango" />
-            <img src="./src/assets/client-2.png" alt="Microsoft" />
-            <img src="./src/assets/client-3.png" alt="Nike" />
-          </div>
-        </div>
-      </section>
-
-      <!-- Contact section -->
-      <section class="mt-28">
-        <div class="container">
-          <div class="relative">
-            <h2 class="mb-20">Contact us</h2>
-            <div class="flex flex-wrap max-lg:space-y-20">
-              <!-- Contact form -->
-              <form class="w-full lg:w-1/2 mr-0 lg:pr-20">
-                <div>
-                  <label class="font-medium text-lg mb-1 block"
-                    >First Name</label
-                  >
-                  <!-- <br /> -->
-                  <input
-                    placeholder="Name here"
-                    class="bg-transparent outline-0 w-full pb-3 border-b-2 border-b-[#536A82] placeholder-[#2E2E2E] placeholder:text-lg placeholder:font-medium"
-                    type="text"
-                  />
-                </div>
-
-                <div class="mt-12">
-                  <label class="font-medium text-lg mb-1 block"
-                    >Last Name</label
-                  >
-                  <input
-                    placeholder="Last here"
-                    class="bg-transparent w-full pb-3 border-b-2 border-b-[#536A82] placeholder-[#2E2E2E] placeholder:text-lg placeholder:font-medium"
-                    type="text"
-                  />
-                </div>
-
-                <div class="mt-12">
-                  <label class="font-medium text-lg mb-1 block">Email</label>
-                  <input
-                    placeholder="Email"
-                    class="bg-transparent w-full pb-3 border-b-2 border-b-[#536A82] placeholder-[#2E2E2E] placeholder:text-lg placeholder:font-medium"
-                    type="text"
-                  />
-                </div>
-
-                <div class="mt-12">
-                  <label class="font-medium text-lg mb-1 block">Message</label>
-                  <br />
-
-                  <textarea
-                    placeholder="Message"
-                    class="bg-transparent w-full pb-3 border-b-2 border-b-[#536A82] text-[#2E2E2E] placeholder:text-lg placeholder:font-medium"
-                    type="text"
-                  >
-Start typing</textarea
-                  >
-                </div>
-
-                <button class="btn btn-primary mt-16">Send message</button>
-              </form>
-
-              <!-- Contact address -->
-              <div class="w-full lg:w-1/2 max-lg:pb-24">
-                <div>
-                  <div class="flex items-center">
-                    <img src="./src/assets/phone-icon.svg" />
-                    <div class="ml-5">Mobile number</div>
-                  </div>
-                  <div class="flex items-center ml-12 mt-7 space-x-7">
-                    <div class="text-[#B6B6B6]">+1 252-937-3762</div>
-                    <button class="btn btn-primary px-11">Call</button>
-                  </div>
-                  <div class="flex items-center ml-12 mt-3 space-x-7">
-                    <div class="text-[#B6B6B6]">+1 252-937-3762</div>
-                    <button class="btn btn-primary px-11">Call</button>
-                  </div>
-                </div>
-                <div class="mt-16">
-                  <div class="flex items-center">
-                    <img src="./src/assets/email-icon.svg" />
-                    <div class="ml-5">E-mail</div>
-                  </div>
-                  <div class="flex items-center ml-12 mt-7">
-                    <div class="text-[#B6B6B6]">sample@example.com</div>
-                  </div>
-                </div>
-                <div class="mt-16">
-                  <div class="flex items-center">
-                    <img src="./src/assets/address-icon.svg" />
-                    <div class="ml-5">Address</div>
-                  </div>
-                  <div class="flex items-center ml-12 mt-7">
-                    <div class="text-[#B6B6B6]">
-                      5 Indian Spring Dr. Mundelein, IL 60060
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                class="absolute bottom-0 right-0 bg-primary py-6 pl-12 pr-10 rounded-tl-[4.3rem]"
-              >
-                <img src="./src/assets/road-map.svg" alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="mt-28">
+    <!-- Our works section -->
+    <section class="mt-28">
       <div class="container">
-        <img
-          class="mx-auto mb-20"
-          src="./src/assets/raven-logo.png"
-          alt="Raven Digital"
-        />
+        <h2 class="mb-20">Our Works</h2>
 
-        <p class="text-[#787878] font-light text-center max-w-lg mx-auto">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id
-          fringilla turpis tempor enim. Vel tristique suspendisse
-        </p>
+        <div class="our-works-1">
+          <img class="img1" src="./src/assets/our-works-1.png" alt="WORK 1" />
+          <img class="img2" src="./src/assets/our-works-2.png" alt="WORK 2" />
+          <img class="img3" src="./src/assets/our-works-3.png" alt="WORK 3" />
+        </div>
 
-        <div class="font-bold flex flex-wrap justify-center gap-x-10 mt-11">
-          <div>Website development</div>
-          <div>Branding</div>
-          <div>UI/UX design</div>
-          <div>Software</div>
-          <div>Digital marketing</div>
+        <div
+          class="w-full overflow-hidden flex flex-col-reverse lg:flex-row md:flex-row-reverse md:flex-wrap lg:flex-nowrap items-center lg:space-x-5 mt-5 max-w-full">
+          <div class="px-10 shrink-0 basis-80 max-md:mt-4 md:w-1/2 lg:w-auto">
+            <div class="text-3xl font-bold">NOT IMPRESSED</div>
+            <p class="mt-6 mb-11">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <button class="btn btn-primary">See more</button>
+          </div>
+
+          <img class="w-full md:w-1/2 lg:w-auto max-md:mt-4" src="./src/assets/our-works-4.png" alt="WORK 4" />
+          <!-- <div class=""> -->
+          <img class="object-cover md:w-full lg:w-auto md:mt-4 lg:mt-0" src="./src/assets/our-works-5.png"
+            alt="WORK 5" />
+          <!-- </div> -->
         </div>
       </div>
+    </section>
 
-      <!-- Social icons -->
-      <div class="flex space-x-12 justify-center mt-20 mb-16">
-        <img src="./src/assets/facebook-icon.svg" alt="" />
-        <img src="./src/assets/twitter-icon.svg" alt="" />
-        <img src="./src/assets/instagram-icon.svg" alt="" />
-      </div>
+    <!-- Stats section -->
+    <section class="bg-primary py-20 mt-28">
+      <div class="container flex max-lg:flex-wrap gap-20 justify-between">
+        <!-- Project Stats -->
+        <div>
+          <div class="font-bold text-5xl">9854</div>
+          <div class="font-bold text-2xl text-[#8FC2FF]">
+            PROJECTS COMPLETED
+          </div>
+        </div>
 
-      <div class="text-base text-center text-[#787878] mb-20">
-        Copyright © 2021. Raven Digital. All rights reserved.
+        <!-- Project Stats -->
+        <div>
+          <div class="font-bold text-5xl">840</div>
+          <div class="font-bold text-2xl text-[#8FC2FF]">CLIENTS</div>
+        </div>
+
+        <!-- Project Stats -->
+        <div>
+          <div class="font-bold text-5xl">321</div>
+          <div class="font-bold text-2xl text-[#8FC2FF]">ACTIVE CLIENTS</div>
+        </div>
+
+        <!-- Project Stats -->
+        <div>
+          <div class="font-bold text-5xl">5410</div>
+          <div class="font-bold text-2xl text-[#8FC2FF]">CUPS OF COFEE</div>
+        </div>
+
+        <!-- Project Stats -->
+        <div>
+          <div class="font-bold text-5xl">9854</div>
+          <div class="font-bold text-2xl text-[#8FC2FF]">
+            PROJECTS COMPLETED
+          </div>
+        </div>
       </div>
-    </footer>
-  </body>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="mt-28">
+      <div class="container">
+        <!-- Testimonial container -->
+        <div class="relative">
+          <!-- Testimonial items -->
+          <div class="">
+            <!-- Testimonial item -->
+            <div
+              class="flex flex-col md:flex-row max-lg:justify-center max-md:items-center md:flex-wrap gap-10 md:gap-5 md:items-start lg:items-center">
+              <img
+                class="max-lg:rounded-full lg:w-[40%] md:shrink-0 md:w-[10%] ring-medium-blue ring-2 w-32 lg:rounded-tr-[5.625rem]"
+                src="./src/assets/testimonial-image.png" alt="Testifier" />
+
+              <div class="md:w-[80%] lg:w-[50%] md:shrink-0 lg:flex-shrink">
+                <div class="font-medium text-5xl">Testimonials</div>
+                <div class="font-medium text-2xl mt-9">Jane Doe</div>
+                <div class="font-medium text-2xl text-[#727272] mt-2">
+                  Company / CEO
+                </div>
+
+                <p class="mt-4 mb-6 font-light">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Blandit id fringilla turpis tempor enim. Vel tristique
+                  suspendisse eget sodales egestas. Donec duis lacus, odio
+                  velit eu eget ac tortor. Ac sit ultricies hendrerit
+                  pellentesque arcu fames sit lectus. Scelerisque id bibendum
+                  velit cras.
+                </p>
+
+                <p class="font-light">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Blandit id fringilla turpis tempor enim. Vel tristique
+                  suspendisse eget sodales egestas.
+                </p>
+              </div>
+              <!-- Testimonial slider controls -->
+              <div class="flex flex-row lg:flex-col lg:w-[5%] max-lg:w-full max-lg:max-w-xs gap-2 items-center">
+                <div>01</div>
+                <div class="flex gap-2 flex-row lg:flex-col max-lg:flex-1 lg:h-96">
+                  <div class="bg-primary w-1/3 h-0.5 lg:w-0.5 lg:h-1/3"></div>
+                  <div class="bg-white w-1/3 h-0.5 lg:w-0.5 lg:h-1/3"></div>
+                  <div class="bg-white w-1/3 h-0.5 lg:w-0.5 lg:h-1/3"></div>
+                </div>
+                <div>03</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="mt-28">
+      <div class="container">
+        <h2 class="mb-20">Our Team</h2>
+
+        <!-- Team members list -->
+        <div class="flex flex-wrap justify-center gap-6">
+          <!-- Team member -->
+          <div class="group relative text-center cursor-pointer">
+            <img src="./src/assets/team-member-1.png" alt="Member 1" />
+
+            <div
+              class="opacity-0 transition-opacity group-hover:opacity-100 group-hover:block duration-500 bg-primary pt-14 pb-20 py-7 absolute inset-0">
+              <div class="font-medium text-2xl">Jane Doe</div>
+              <div class="font-medium text-lg">Company/CEO</div>
+
+              <p class="font-light mt-16 mb-40">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Blandit id fringilla turpis tempor enim. Vel tristique
+                suspendisse
+              </p>
+
+              <!-- member socials -->
+              <div class="flex gap-10 justify-center">
+                <img src="./src/assets/facebook-icon.svg" alt="Facebook" />
+                <img src="./src/assets/twitter-icon.svg" alt="Twitter" />
+                <img src="./src/assets/instagram-icon.svg" alt="Instagram" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Team member -->
+          <div class="group relative text-center cursor-pointer">
+            <img src="./src/assets/team-member-1.png" alt="Member 1" />
+
+            <div
+              class="opacity-0 transition-opacity group-hover:opacity-100 group-hover:block duration-500 bg-primary pt-14 pb-20 py-7 absolute inset-0">
+              <div class="font-medium text-2xl">Jane Doe</div>
+              <div class="font-medium text-lg">Company/CEO</div>
+
+              <p class="font-light mt-16 mb-40">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Blandit id fringilla turpis tempor enim. Vel tristique
+                suspendisse
+              </p>
+
+              <!-- member socials -->
+              <div class="flex gap-10 justify-center">
+                <img src="./src/assets/facebook-icon.svg" alt="Facebook" />
+                <img src="./src/assets/twitter-icon.svg" alt="Twitter" />
+                <img src="./src/assets/instagram-icon.svg" alt="Instagram" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Team member -->
+          <div class="group relative text-center cursor-pointer">
+            <img src="./src/assets/team-member-2.png" alt="Member 2" />
+
+            <div
+              class="opacity-0 transition-opacity group-hover:opacity-100 group-hover:block duration-500 bg-primary pt-14 pb-20 py-7 absolute inset-0">
+              <div class="font-medium text-2xl">Jane Doe</div>
+              <div class="font-medium text-lg">Company/CEO</div>
+
+              <p class="font-light mt-16 mb-40">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Blandit id fringilla turpis tempor enim. Vel tristique
+                suspendisse
+              </p>
+
+              <!-- member socials -->
+              <div class="flex gap-10 justify-center">
+                <img src="./src/assets/facebook-icon.svg" alt="Facebook" />
+                <img src="./src/assets/twitter-icon.svg" alt="Twitter" />
+                <img src="./src/assets/instagram-icon.svg" alt="Instagram" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Team member -->
+          <div class="group relative text-center cursor-pointer">
+            <img src="./src/assets/team-member-3.png" alt="Member 3" />
+
+            <div
+              class="opacity-0 transition-opacity group-hover:opacity-100 group-hover:block duration-500 bg-primary pt-14 pb-20 py-7 absolute inset-0">
+              <div class="font-medium text-2xl">Jane Doe</div>
+              <div class="font-medium text-lg">Company/CEO</div>
+
+              <p class="font-light mt-16 mb-40">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Blandit id fringilla turpis tempor enim. Vel tristique
+                suspendisse
+              </p>
+
+              <!-- member socials -->
+              <div class="flex gap-10 justify-center">
+                <img src="./src/assets/facebook-icon.svg" alt="Facebook" />
+                <img src="./src/assets/twitter-icon.svg" alt="Twitter" />
+                <img src="./src/assets/instagram-icon.svg" alt="Instagram" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog thumbnails section -->
+    <section class="mt-28">
+      <div class="container">
+        <h2 class="mb-20 text-center">Blog</h2>
+        <!-- Thumbnail list -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Thumbnail item -->
+          <div class="bg-[#11161C] rounded-tr-[8rem] relative group">
+            <div class="m-5 relative z-10">
+              <div class="relative">
+                <img class="rounded-tr-[7rem] w-full" src="./src/assets/thumb-image-1.png" alt="Blog thumbnail 1" />
+                <div
+                  class="font-medium text-lg absolute bottom-0 left-0 bg-primary drop-shadow-lg rounded-tr-[4.34rem] py-4 pl-6 pr-10">
+                  Techno
+                </div>
+              </div>
+
+              <div class="flex mt-6 mb-4 justify-between text-[#727272] font-medium">
+                <!-- Blog date and number -->
+                <div>07/04/2021</div>
+
+                <div>1502</div>
+              </div>
+
+              <!-- Blog Heading -->
+              <div class="font-medium text-2xl">Tik tok Banned in India</div>
+
+              <!-- Blog summary -->
+              <p class="pt-5 pb-11">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Blandit id fringilla turpis tempor enim. Vel tristique
+                suspendisse eget sodales egestas. Donec duis lacus, odio velit
+              </p>
+            </div>
+            <!-- Inner animated cover -->
+            <div class="absolute bottom-0 bg-primary w-full h-2 group-hover:h-96 transition-[height]"></div>
+          </div>
+
+          <!-- Thumbnail item -->
+          <div class="bg-[#11161C] rounded-tr-[8rem] relative group">
+            <div class="m-5 relative z-10">
+              <div class="relative">
+                <img class="rounded-tr-[7rem] w-full" src="./src/assets/thumb-image-2.png" alt="Blog thumbnail 1" />
+                <div
+                  class="font-medium text-lg absolute bottom-0 left-0 bg-primary drop-shadow-lg rounded-tr-[4.34rem] py-4 pl-6 pr-10">
+                  Techno
+                </div>
+              </div>
+
+              <div class="flex mt-6 mb-4 justify-between text-[#727272] font-medium">
+                <!-- Blog date and number -->
+                <div>07/04/2021</div>
+
+                <div>1502</div>
+              </div>
+
+              <!-- Blog Heading -->
+              <div class="font-medium text-2xl">Tik tok Banned in India</div>
+
+              <!-- Blog summary -->
+              <p class="pt-5 pb-11">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Blandit id fringilla turpis tempor enim. Vel tristique
+                suspendisse eget sodales egestas. Donec duis lacus, odio velit
+              </p>
+            </div>
+            <!-- Inner animated cover -->
+            <div class="absolute bottom-0 bg-primary w-full h-2 group-hover:h-96 transition-[height]"></div>
+          </div>
+
+          <!-- Thumbnail item -->
+          <div class="bg-[#11161C] rounded-tr-[8rem] relative group">
+            <div class="m-5 relative z-10">
+              <div class="relative">
+                <img class="rounded-tr-[7rem] w-full" src="./src/assets/thumb-image-3.png" alt="Blog thumbnail 1" />
+                <div
+                  class="font-medium text-lg absolute bottom-0 left-0 bg-primary drop-shadow-lg rounded-tr-[4.34rem] py-4 pl-6 pr-10">
+                  Techno
+                </div>
+              </div>
+
+              <div class="flex mt-6 mb-4 justify-between text-[#727272] font-medium">
+                <!-- Blog date and number -->
+                <div>07/04/2021</div>
+
+                <div>1502</div>
+              </div>
+
+              <!-- Blog Heading -->
+              <div class="font-medium text-2xl">Tik tok Banned in India</div>
+
+              <!-- Blog summary -->
+              <p class="pt-5 pb-11">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Blandit id fringilla turpis tempor enim. Vel tristique
+                suspendisse eget sodales egestas. Donec duis lacus, odio velit
+              </p>
+            </div>
+            <!-- Inner animated cover -->
+            <div class="absolute bottom-0 bg-primary w-full h-2 group-hover:h-96 transition-[height]"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Clients section -->
+    <section class="mt-28 bg-[#0A0F14]">
+      <div class="container">
+        <h2 class="mb-20">Clients</h2>
+
+        <div class="flex justify-between gap-10 flex-wrap">
+          <img src="./src/assets/client-1.png" alt="Mango" />
+          <img src="./src/assets/client-2.png" alt="Microsoft" />
+          <img src="./src/assets/client-3.png" alt="Nike" />
+          <img src="./src/assets/client-4.png" alt="Amazon" />
+          <img src="./src/assets/client-1.png" alt="Mango" />
+          <img src="./src/assets/client-2.png" alt="Microsoft" />
+          <img src="./src/assets/client-3.png" alt="Nike" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="mt-28">
+      <div class="container">
+        <div class="relative">
+          <h2 class="mb-20">Contact us</h2>
+          <div class="flex flex-wrap max-lg:space-y-20">
+            <!-- Contact form -->
+            <form class="w-full lg:w-1/2 mr-0 lg:pr-20">
+              <div>
+                <label class="font-medium text-lg mb-1 block">First Name</label>
+                <!-- <br /> -->
+                <input placeholder="Name here"
+                  class="bg-transparent outline-0 w-full pb-3 border-b-2 border-b-[#536A82] placeholder-[#2E2E2E] placeholder:text-lg placeholder:font-medium"
+                  type="text" />
+              </div>
+
+              <div class="mt-12">
+                <label class="font-medium text-lg mb-1 block">Last Name</label>
+                <input placeholder="Last here"
+                  class="bg-transparent w-full pb-3 border-b-2 border-b-[#536A82] placeholder-[#2E2E2E] placeholder:text-lg placeholder:font-medium"
+                  type="text" />
+              </div>
+
+              <div class="mt-12">
+                <label class="font-medium text-lg mb-1 block">Email</label>
+                <input placeholder="Email"
+                  class="bg-transparent w-full pb-3 border-b-2 border-b-[#536A82] placeholder-[#2E2E2E] placeholder:text-lg placeholder:font-medium"
+                  type="text" />
+              </div>
+
+              <div class="mt-12">
+                <label class="font-medium text-lg mb-1 block">Message</label>
+                <br />
+
+                <textarea placeholder="Message"
+                  class="bg-transparent w-full pb-3 border-b-2 border-b-[#536A82] text-[#2E2E2E] placeholder:text-lg placeholder:font-medium"
+                  type="text">
+Start typing</textarea>
+              </div>
+
+              <button class="btn btn-primary mt-16">Send message</button>
+            </form>
+
+            <!-- Contact address -->
+            <div class="w-full lg:w-1/2 max-lg:pb-24">
+              <div>
+                <div class="flex items-center">
+                  <img src="./src/assets/phone-icon.svg" />
+                  <div class="ml-5">Mobile number</div>
+                </div>
+                <div class="flex items-center ml-12 mt-7 space-x-7">
+                  <div class="text-[#B6B6B6]">+1 252-937-3762</div>
+                  <button class="btn btn-primary px-11">Call</button>
+                </div>
+                <div class="flex items-center ml-12 mt-3 space-x-7">
+                  <div class="text-[#B6B6B6]">+1 252-937-3762</div>
+                  <button class="btn btn-primary px-11">Call</button>
+                </div>
+              </div>
+              <div class="mt-16">
+                <div class="flex items-center">
+                  <img src="./src/assets/email-icon.svg" />
+                  <div class="ml-5">E-mail</div>
+                </div>
+                <div class="flex items-center ml-12 mt-7">
+                  <div class="text-[#B6B6B6]">sample@example.com</div>
+                </div>
+              </div>
+              <div class="mt-16">
+                <div class="flex items-center">
+                  <img src="./src/assets/address-icon.svg" />
+                  <div class="ml-5">Address</div>
+                </div>
+                <div class="flex items-center ml-12 mt-7">
+                  <div class="text-[#B6B6B6]">
+                    5 Indian Spring Dr. Mundelein, IL 60060
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="absolute bottom-0 right-0 bg-primary py-6 pl-12 pr-10 rounded-tl-[4.3rem]">
+              <img src="./src/assets/road-map.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="mt-28">
+    <div class="container">
+      <img class="mx-auto mb-20" src="./src/assets/raven-logo.png" alt="Raven Digital" />
+
+      <p class="text-[#787878] font-light text-center max-w-lg mx-auto">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id
+        fringilla turpis tempor enim. Vel tristique suspendisse
+      </p>
+
+      <div class="font-bold flex flex-wrap justify-center gap-x-10 mt-11">
+        <div>Website development</div>
+        <div>Branding</div>
+        <div>UI/UX design</div>
+        <div>Software</div>
+        <div>Digital marketing</div>
+      </div>
+    </div>
+
+    <!-- Social icons -->
+    <div class="flex space-x-12 justify-center mt-20 mb-16">
+      <img src="./src/assets/facebook-icon.svg" alt="" />
+      <img src="./src/assets/twitter-icon.svg" alt="" />
+      <img src="./src/assets/instagram-icon.svg" alt="" />
+    </div>
+
+    <div class="text-base text-center text-[#787878] mb-20">
+      Copyright © 2021. Raven Digital. All rights reserved.
+    </div>
+  </footer>
+</body>
+
 </html>
